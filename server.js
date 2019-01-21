@@ -9,7 +9,7 @@ db.once('open', ()=> console.log("we are Connected") );
 
 app.use(cors())
 
-app.listen(process.env.POST || 3000,(req,res)=>console.log("server run") );
+app.listen(process.env.PORT || 3000,(req,res)=>console.log("server run") );
 
 
 
